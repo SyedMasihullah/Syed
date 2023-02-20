@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +18,7 @@ table {
 	align: auto;
 }
 
-.Registration {
+.Unsubscription {
 	background-color: #90EE90;
 	color: white;
 	border: 2px solid white;
@@ -37,33 +37,27 @@ table {
 </head>
 <body>
 	<center>
-		<h1>Lets Get Started</h1>
+		<h1>We are sorry to see you leave</h1>
 	</center>
-	<div class="Registration" id="Registration">
+	<div class="Unsubscription" id="Unsubscription">
 		<form>
 			<Table>
 				<tr>
 					<td>Name</td>
-					<td><input type="text" name="regname" maxlength="25 charecter"></td>
-					<td><small>(max 25 chars only)</small></td>
-				</tr>
-				<tr>
-					<td>Mail</td>
-					<td><input type="text" name="regmail"></td>
-					<td><small>(name@example.com)</small></td>
+					<td><input type="text" name="unname"></td>
 				</tr>
 				<tr>
 					<td>Mobile</td>
-					<td><input type="text" name="regmobile"></td>
+					<td><input type="text" name="unmobile"></td>
 					<td><small>(99999 00000)</small></td>
 				</tr>
 								<tr>
 					<td>Password</td>
-					<td><input type="password" name="regpass"></td>
+					<td><input type="password" name="unpass"></td>
 					<td><small>(name@123)</small></td>
 				</tr>
 				<tr>
-					<td><input type="submit" value="submit" formaction="signupdata"></td>
+					<td><input type="submit" value="submit" formaction="unsub"></td>
 					<td><input type="submit" value="Cancel" formaction="Login.jsp"></td>
 				</tr>
 			</Table>
